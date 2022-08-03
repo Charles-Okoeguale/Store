@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import {GiHamburgerMenu} from 'react-icons/gi'
 import {Link} from 'react-scroll'
+import SVG from "./components/Svg";
 
 
 
@@ -13,7 +14,7 @@ const Navbar = () => {
     return (
             <div className="navbar">
                 <div className="navbar__logo">
-                    logo
+                    <SVG/>
                 </div>
                 {menuOpen ? (
                     <div className="navbar__active">
