@@ -1,5 +1,19 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+
+# - Surge 👕👗
+
+The landing page for an online store.
+
+
+
+| Service     | Description          | Stack                         |
+| ----------- | -------------------- | ----------------------------- |
+| Client      | Frontend React app   | TypeScript, Next.js, React, SCSS       
+| Backend API | Next.js server       | Typescript, Next.js           |
+| Mongodb     | Database             |                               |
+
+
 ## Getting Started
 
 First, run the development server:
