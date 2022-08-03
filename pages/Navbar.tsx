@@ -18,9 +18,9 @@ const Navbar = () => {
                 </div>
                 {menuOpen ? (
                     <div className="navbar__active">
-                        <Link className="navbar__linkItem" to='#home' smooth={true} duration={1000}>Home</Link>
-                        <Link className="navbar__linkItem" to='#contacts' smooth={true} duration={1000}>Contact</Link>
-                        <Link className="navbar__linkItem" to='#about' smooth={true} duration={1000}>About</Link>
+                        <Link className="navbar__linkItem" to='home' smooth={true} duration={1000}>Home</Link>
+                        <Link className="navbar__linkItem" to='contacts' smooth={true} duration={1000}>Contact</Link>
+                        <Link className="navbar__linkItem" to='about' smooth={true} duration={1000}>About</Link>
                     </div> 
                 ) : (
                     <div className='navbar__links'>
