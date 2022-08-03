@@ -35,7 +35,7 @@ The landing page for an online store.
 
 Open [http://localhost:3000/](http://localhost:3000/) with your browser to see the landing page.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/feedback](http://localhost:3000/api/feedback). This endpoint can be edited in `pages/api/feedback.ts`.
+[API routes] can be accessed on [http://localhost:3000/api/feedback](http://localhost:3000/api/feedback). This endpoint can be edited in `pages/api/feedback.ts`.
 
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
