@@ -1,7 +1,7 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 
-# - Surge 
+# - Surge 👕👗
 
 The landing page for an online store.
 
@@ -16,13 +16,22 @@ The landing page for an online store.
 
 ## Getting Started
 
-First, run the development server:
+## Installation :wrench:
 
-```bash
-npm run dev
-# or
-yarn dev
+1. Clone this repo by running `git clone https://github.com/Charles1403/Take-home.git`
+2. `cd Take-home`
+3. `yarn install`
+4. `yarn dev`
+
 ```
+
+
+## Common Commands :computer:
+
+1. `dev` Starts local development server at [http://localhost:3000](http://localhost:3000)
+2. `build` Runs build
+3. `start` Runs next js server
+
 
 Open [http://localhost:3000/](http://localhost:3000/) with your browser to see the landing page.
 
