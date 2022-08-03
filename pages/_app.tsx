@@ -3,6 +3,9 @@ import type { AppProps } from 'next/app'
 import '../styles/_variables.scss'
 import '../styles/Navbar.Module.scss'
 import '../styles/Intro.Module.scss'
+import '../styles/About.Module.scss'
+import '../styles/Contact.Module.scss'
+
 
 function MyApp({ Component, pageProps }: AppProps) {
   return <Component {...pageProps} />
