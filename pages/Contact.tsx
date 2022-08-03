@@ -33,13 +33,12 @@ const Contact = () => {
 
     const handleClick = (e : React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
         e.preventDefault()
-        console.log(input)
-        // axios.post("http://localhost:3000/api/feedback", {input}).then((response) => {
-        //     console.log(response.status + ' ' + response.statusText)
-        //     if (response) setBox(true)
-        //     if (response.status === 200) setFeedBackMessage(200)
-        //     if (response.status !== 200) setFeedBackMessage(0)
-        // })  
+        axios.post("http://localhost:3000/api/feedback", {input}).then((response) => {
+            console.log(response.status + ' ' + response.statusText)
+            if (response) setBox(true)
+            if (response.status === 200) setFeedBackMessage(200)
+            if (response.status !== 200) setFeedBackMessage(0)
+        })  
     }
 
 
